@@ -17,7 +17,7 @@ Created for my ICT homework, but I guess it can also be useful elsewhere.
 # Setup instructions
 
 To set this script up for yourself, create a new Form, open the Apps Script
-editor and overwrite anything there is with this entire script.
+editor and overwrite anything there is with [this entire script](https://raw.githubusercontent.com/prochazkaml/TurboFormulator/master/main.gs).
 
 Then, create a new Spreadsheet and copy its ID into the `spreadsheetID` constant
 in this script's user configuration section (right below this wall of text).
