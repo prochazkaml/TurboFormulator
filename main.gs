@@ -261,37 +261,6 @@ const formListDescStart = "Ze seznamu: ";
 
 // USER CONFIGURATION ENDS HERE
 
-/*
-// These functions were only used in testing
-function testGenerateResponse(index, itemname, itemdesc, respname) {
-  return {
-    "getItem": () => {
-      return {
-        "getIndex": () => { return index; },
-        "getTitle": () => { return itemname; },
-        "getHelpText": () => { return itemdesc; }
-      };
-    },
-    "getResponse": () => { return respname; }
-  };
-}
-
-function test() {
-  onFormSubmit({
-    "response": {
-      "getItemResponses": () => {
-        return [
-          testGenerateResponse(0, "Chci zaregistrovat nového/novou...", "", "třídu"),
-          testGenerateResponse(6, "Název", "", "V7.A"),
-          testGenerateResponse(7, "Učitel", "Ze seznamu: Učitelé (Jméno, Příjmení)", "Petr Jandera ͏"),
-        ];
-      }
-    },
-    "source": FormApp.getActiveForm()
-  });
-}
-*/
-
 // Lookup table containing invisible Unicode characters for decoding hidden IDs from the selected list response
 
 const leetchars = [
