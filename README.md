@@ -247,7 +247,7 @@ That's it for the Spreadsheet! Simple, right?
 
 ## Finishing touches
 
-Lastly, when everything is set up, run the installTrigger() function from the
+Lastly, when everything is set up, run the `installTrigger()` function from the
 Apps Script editor. This will install the script, making sure that it runs
 anytime the Form is submitted.
 
